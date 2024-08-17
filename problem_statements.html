@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Statements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .legend {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .legend-item {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .color-box {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .secondary {
+            background-color: #e6f3ff;
+        }
+        .special {
+            background-color: #fff0e6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Problem Statements</h1>
+    <div class="legend">
+        <div class="legend-item">
+            <span class="color-box secondary"></span>
+            Secondary Priority
+        </div>
+        <div class="legend-item">
+            <span class="color-box special"></span>
+            Special Priority
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Organization</th>
+                <th>Department</th>
+                <th>Theme</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+        <tr class="secondary">
+            <td>1604</td>
+            <td>Conversational Image Recognition Chatbot</td>
+            <td>Background: Ever since the birth of AI and computer vision, modeling conversations remains one of the field’s challenges, especially to combine both natural language processing and image recognition. Chatbots are now widely used as part of platform as applications like Apple’s Siri, Google’s Google Assistant or Microsoft’s Cortana. Detailed Description: Generally, a conversational Chatbot is an application that is able to communicate with humans using natural language. However there exists a need for an image recognition deep learning based Chatbot is an application to recognize the images, uploaded by user and answer the questions about the image. The main problem domain of this project is building a image recognization Chatbot, which is capable of recognize the object in an image and generating the best response for any the user’s query about the image. Expected Solution: Image recognition Chatbot is expected to detect the object in the image and have the related dialog of the image after training, also have understanding of the sender’s messages so that it can predict which sort of response will be relevant and it must be correct lexically and grammatically while generating the reply.</td>
+            <td>Bharat Electronics Limited (BEL)</td>
+            <td>Bharat Electronics Limited (BEL)</td>
+            <td>Smart Automation</td>
+        </tr>
+        
+        <tr class="special">
+            <td>1655</td>
+            <td>Detecting oil spills at marine environment using Automatic Identification System (AIS) and satellite datasets</td>
+            <td>Background: The impact of oil spills at sea is multifaceted, affecting the environment, economy, public health, and society at large. Preventing spills through stringent regulations, improved technology, and better safety practices is crucial to mitigate these devastating effects. Automatic oil spill detection using Automatic Identification System (AIS) and satellite datasets is essential for environmental protection, public health and safety, economic stability, regulatory enforcement, technological advancement, and operational efficiency. This approach enables timely and effective responses to oil spills, mitigating their impact and promoting sustainable maritime practices. Integrating AIS and satellite datasets significantly enhances the early detection of oil spills at sea by combining real-time vessel tracking with advanced remote sensing capabilities. Detailed description: The automatic identification of oil leaks and spills from ships and vessels using AIS (Automatic Identification System) and satellite datasets involves integrating real-time tracking and advanced remote sensing technologies to monitor marine environments effectively. AIS provides crucial information such as the vessel&#x27;s unique identifiers (IMO number, call sign), real-time positional data (latitude, longitude), speed over ground (SOG), course over ground (COG), heading, type of vessel, dimensions, draught, destination, estimated time of arrival (ETA), and cargo details. To detect a vessel in distress, AIS data have to be monitored for anomalies, such as sudden changes in speed or course, erratic movements, or unexpected stops. These irregularities can signal potential distress, prompting further investigation. Once detecting the distress, the same location/vessel have to be monitored using space borne satellite datasets for oil leaks, orientation of the vessel and its change in datum. The integration of AIS data with satellite datasets, enhances the ability to detect oil leaks early and can respond to situations efficiently. As far as study area, any of the below options may be considered. Option 1 : off Mumbai: https://drive.google.com/file/d/1HUisEfMA20ilODdeoRYVneG2i1ZbRBNB/view?usp=drive_link Option 2 :Gulf of Mexico – North American waters: https://drive.google.com/file/d/1_iEcojaZNaezOqKwxHtCenjgOW58lPgA/view?usp=drive_link Expected solution: Automated oil spill detection system for early detection of oil spills A software/tool/system to be developed for detecting oil spills/vessel in distress with suitable methodology that involves programming in python. The tool/system should detect the anomalies in AIS around the vessel. The distress/anomaly zone has to be monitored for oil spills using Satellite datasets. This can help in early detection of oil leak from a ship or vessel. The information can be passed on to the regulatory authorities for quicker and efficient response.</td>
+            <td>Ministry of Earth Sciences</td>
+            <td>Indian National Center for Ocean Information Services (INCOIS)</td>
+            <td>Smart Automation</td>
+        </tr>
+        
+        <tr class="special">
+            <td>1678</td>
+            <td>RE-DACT</td>
+            <td>Background: Easy to use and secure redaction tool “RE-DACT” which allows redaction/masking/anonymization on various input formats based on a gradational scale defined by the user and providing customized output. Over a time, model will learn and have the ability to generate realistic synthetic data in any sought format. Description: The proposed solution is a natural language processing (machine learning) based redaction tool. The tool will redact or obfuscate from original data leaving the output structurally/logically the same but stripped of key identifiers and other content which may in any way allow the identity, actual data, markers or issues in the input content to be revealed. The correlational logic may be appropriately obfuscated based on the degree of redaction. This will have an easy to use GUI and will be available for use on online and offline systems. The degree of the redaction will be up to the user- the higher the degree set by the user, the more the degree of redaction. This will work with all different commonly used formats for text and data sets. Security of data will be assured by ensuring that the input data is not stored or retrievable in any fashion by third party entities. User will have complete control over the input data. It is also an important aspect that sometimes data may be required to be stored or submitted, however specific sensitive details may not necessarily be required. In such a situation- anonymized data authenticated as having being redacted from original would suffice. Declassification processes are long and arduous; anonymization is largely manual or custom script driven. By providing a gradational redaction option, ordinary users can strip away the specificity to the extent of liking-from merely name removal/anonymization to completely synthetic data with only faint traces of original structure/pattern. This can allow generation of large number of databases with realistic but anonymized data that can be shared for learning, growth and commercial ventures. Expected Solution: Problem Statement: Easy to use and secure redaction tool “RE-DACT” which allows redaction/masking/anonymization on various input formats based on a gradational scale defined by the user and providing customized output. Over a time, model will learn and have the ability to generate realistic synthetic data in any sought format. Stage 1 Data: Curate and use own data set for building PoC Task/Result: Input/Output: Supports common input formats (text files, images) and basic output formats (redacted files, logs). Web based version Training Dataset: Publicly available dataset can be used for the purpose. Metrics: Precision, Recall, F1 Score on Open Source Testing dataset. Stage 2 Data: Dataset will be provided in Grand Finale Task/Result: Input/Output: Expands to handle more data formats (e.g., PDFs, videos) and advanced output options (e.g., redacted versions with annotations). Training Dataset: Diverse data set prepared from commonly used formats Metrics: Precision, Recall, F1 Score on Open Source Testing dataset. Performance/Evaluation Criteria: • PoC will be preferred over just concept or presentation. The performance may be ascertained on the following metrics: • Efficacy of the redaction/anonymization- whether appropriate data has been redacted • Gradational effect achieved based on user preference and ability to calibrate. • Ability to work on a variety of input sources • Security of the input data by minimal retention • Speed • Optimized computing usage and ability to operate at scale. • Ease of use, UI, UX. • Performance benchmarked against COTS solutions. • Web Based and Offline solution. • Minimal API dependency • Use of Secure Coding Practices and cybersecurity built in design.</td>
+            <td>National Technical Research Organisation (NTRO)</td>
+            <td>National Technical Research Organisation (NTRO)</td>
+            <td>Blockchain &amp; Cybersecurity</td>
+        </tr>
+        
+        <tr class="special">
+            <td>1681</td>
+            <td>Identification of algorithm from the given dataset using AI/ML Techniques.</td>
+            <td>Background: There are large number of cryptographic algorithms available for ensuring data confidentiality and integrity in secure communication. Identification of the algorithm is a research activity that leads to better understanding of the weakness in its implementation, in order to make the algorithm more robust and secure. Description: The above Problem Statement envisages that approach(s) be developed using AI/ML techniques for identification of the cryptographic algorithm by analyzing given data. The provided datasets are generated using modern cryptographic algorithms. The algorithm is expected to be identified by using a combination of AI/ML and innovative approaches. The successful approaches may also be automated by developing a software solution which takes the given dataset as input and gives probable cryptographic algorithms as output. Expected Solution: Logical approach be developed to successfully identify the algorithm for the given dataset. The approaches should either be implemented in software form or should be feasible to be developed as a software.</td>
+            <td>National Technical Research Organisation (NTRO)</td>
+            <td>National Technical Research Organisation (NTRO)</td>
+            <td>Blockchain &amp; Cybersecurity</td>
+        </tr>
+        
+        <tr class="secondary">
+            <td>1697</td>
+            <td>AI based chatbot for collating and dissemination of information on groundwater.</td>
+            <td>The Chatbot should be able to answer queries related to - water level scenario, hydrogeological scenario, water quality, available reports for an area. Additionally it should generate a comprehensive report of the Aol on - Ground Water Resource Assessment, Categorization of the area, GW management practices to be adopted, Conditions for obtaining NOC for ground water extraction, guidance on how to obtain NOC, definition of groundwater terms, training opportunities related to ground water etc.</td>
+            <td>Ministry of Jal Shakti</td>
+            <td>Department of WR, RD &amp; GR</td>
+            <td>Smart Automation</td>
+        </tr>
+        
+        <tr class="secondary">
+            <td>1706</td>
+            <td>Intelligent Enterprise Assistant: Enhancing Organizational Efficiency through AI-driven Chatbot Integration</td>
+            <td>Description: Develop a chatbot using deep learning and natural language processing techniques to accurately understand and respond to queries from employees of a large public sector organization. The chatbot should be capable of handling diverse questions related to HR policies, IT support, company events, and other organizational matters. (Hackathon students/teams to use publicly available sample information for HR Policy, IT Support, etc. available on internet.) Develop document processing capabilities for the chatbot to analyse and extract information from documents uploaded by employees. This includes summarizing a document or extracting text (keyword information) from documents relevant to organizational needs. (Hackathon students/teams can use any 8 to 10 page document for demonstration). Ensure the chatbot architecture is scalable to handle minimum 5 users parallelly. This includes optimizing response time (Response Time should not exceed 5 seconds for any query unless there is a technical issue like connectivity, etc.) Enable 2FA (2 Factor Authentication – email id type) in the chatbot for enhancing the security level of the chatbot. Chatbot should filter bad language as per system-maintained dictionary. Youtube Link/Video Link (3 Minute video explaining the Problem Statement): https://youtu.be/Q3pP7mRk5Qk NOTE: GAIL (INDIA) LTD will not provide any hardware, software, license, data or any other resource to SIH hackathon Teams. The teams should use free and/or open-source resources, as applicable, for the entire project.</td>
+            <td>	GAIL, Ministry of Petroleum and Natural Gas</td>
+            <td>GAIL Limited</td>
+            <td>Miscellaneous</td>
+        </tr>
+        
+        <tr class="special">
+            <td>1709</td>
+            <td>Comprehensive Automated Document Verification System for Official Documentation</td>
+            <td>Background: The current manual process of verifying documents for various official purposes is time-consuming, error-prone, and lacks efficiency. This process involves verification of numerous documents such as birth certificates, academic transcripts, identification cards, and experience certificates. There is a pressing need for an online solution that automates and secures the document verification process. Description: This problem statement addresses the urgent requirement for an online platform, empowered by artificial intelligence (AI) and blockchain technology, to automate document verification for all official purposes. The proposed solution aims to establish a user-friendly portal accessible to issuing authorities (e.g., schools, universities, employers), verifying authorities (government offices, banks, legal entities), and individuals. Issuing authorities will generate digital certificates for individuals, including birth certificates, academic transcripts, and experience certificates. These certificates will be securely stored on the blockchain for tamper-proof authenticity. Individuals will have access to the portal to view all documents issued in their name. Expected Solution: Participants are tasked with developing a comprehensive portal that facilitates the generation, verification, and accessibility of essential documents for any official purpose. The platform should utilize Al algorithms to efficiently verify the authenticity of uploaded documents. Verifying authorities will have access to a secure interface to validate submitted documents against predefined criteria. Individuals will be able to access the portal to view all documents issued to their name. The implementation of blockchain technology will ensure the immutability and integrity of the verified certificates. Ultimately, the solution aims to streamline the document verification process, reducing time and resources required for all stakeholders involved in official documentation.</td>
+            <td>Ministry of Power</td>
+            <td>Ministry of Power</td>
+            <td>Smart Automation</td>
+        </tr>
+        
+        </tbody>
+    </table>
+</body>
+</html>
+    
